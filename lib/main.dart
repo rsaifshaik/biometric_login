@@ -14,9 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Biometric Login',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
-        appBarTheme: AppBarTheme(
-          backgroundColor: Colors.white
-        ),
+        appBarTheme: AppBarTheme(backgroundColor: Colors.white),
         primarySwatch: Colors.deepPurple,
       ),
       home: const LoginScreen(),
